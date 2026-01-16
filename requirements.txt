@@ -1,0 +1,8 @@
+pymupdf
+pdf2docx
+pdf2image
+datasets
+pyaudio
+fpdf
+googletrans
+sentence-transformers
