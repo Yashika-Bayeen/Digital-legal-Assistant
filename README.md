@@ -1,10 +1,10 @@
-# ⚖️ Digital Legal Assistant for Legal Awareness & Document Design
+# Digital Legal Assistant for Legal Awareness & Document Design
 
 An AI-powered **Digital Legal Assistant** built using **Natural Language Processing (NLP)** and **Sentence-BERT** to provide accurate legal information, multilingual support, voice-based interaction, document analysis, and automated legal document generation through an interactive **Streamlit** web interface.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 Accessing legal information is often difficult due to complex language, lack of awareness, and limited accessibility. This project addresses these challenges by developing an intelligent digital assistant that retrieves **contextually relevant legal answers** using **semantic similarity** instead of traditional keyword matching.
 
 The assistant supports **text, voice, and document-based queries**, provides **multilingual interaction**, and enables users to **generate legal documents** by filling predefined templates dynamically.
@@ -12,17 +12,17 @@ The assistant supports **text, voice, and document-based queries**, provides **m
 ---
 
 ## ✨ Key Features
-- 💬 **Semantic Legal Question Answering** using Sentence-BERT  
-- 🌐 **Multilingual Support** (English, Hindi, Tamil, Telugu, Kannada, Marathi, Bengali)  
-- 🎙️ **Voice Input** using Speech-to-Text  
-- 📄 **Document Upload & Analysis** (PDF, DOCX, TXT, Images via OCR)  
-- 🧠 **Context-Aware Answer Retrieval** using cosine similarity  
-- 📝 **Legal Document Template Generator** (Auto-filled Word documents)  
-- 🖥️ **Interactive Web App** built with Streamlit  
+- **Semantic Legal Question Answering** using Sentence-BERT  
+- **Multilingual Support** (English, Hindi, Tamil, Telugu, Kannada, Marathi, Bengali)  
+- **Voice Input** using Speech-to-Text  
+- **Document Upload & Analysis** (PDF, DOCX, TXT, Images via OCR)  
+- **Context-Aware Answer Retrieval** using cosine similarity  
+- **Legal Document Template Generator** (Auto-filled Word documents)  
+- **Interactive Web App** built with Streamlit  
 
 ---
 
-## 🧠 Methodology
+## Methodology
 - Legal QA datasets collected from **Hugging Face (Legal-FAQ, Lawyer GPT India)**
 - Text preprocessing and normalization
 - Fine-tuned **Sentence-BERT (paraphrase-MiniLM-L6-v2)** for legal domain
@@ -32,7 +32,7 @@ The assistant supports **text, voice, and document-based queries**, provides **m
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 - **Evaluation Metric:** Cosine Similarity  
 - **Average Similarity Score:** **0.9457**  
 - Demonstrated strong understanding of paraphrased and multilingual legal queries  
@@ -40,7 +40,7 @@ The assistant supports **text, voice, and document-based queries**, provides **m
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 ### Programming & Frameworks
 - Python 3.8+
 - Streamlit
@@ -60,7 +60,7 @@ The assistant supports **text, voice, and document-based queries**, provides **m
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 1. User provides input via text, voice, or document upload  
 2. Input is translated to English (if required)  
 3. Text is cleaned and converted into embeddings  
@@ -71,7 +71,7 @@ The assistant supports **text, voice, and document-based queries**, provides **m
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/digital-legal-assistant.git
